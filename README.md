@@ -52,16 +52,18 @@
  * **Doubly-linked list**: linked list in which each node has two pointers p, n such that p points to the previous node and n points to the next node; the last node's n pointer points to null
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
  * Time Complexity:
-   * Access: `O(n)`
-   * Search: `O(n)`
-   * Insert: `O(1)`
-   * Remove: `O(1)`
+   * Worst Case:     Best Case:  Average Case:
+   * Access: `O(n)`   `O(1)`        `O(n/2)`
+   * Search: `O(n)`   `O(1)`        `O(n/2)`
+   * Insert: `O(1)`     -              - 
+   * Remove: `O(1)`     -              -
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
  * Time Complexity:
+  * Worst Case:      Best Case:  Average Case:
   * Access: `O(n)`
   * Search: `O(n)`
   * Insert: `O(1)`
@@ -72,7 +74,7 @@
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
  * Time Complexity:
-  * Access: `O(n)`
+  * Access: `O(n)`   Best Case:  Average Case:
   * Search: `O(n)`
   * Insert: `O(1)`
   * Remove: `O(1)`

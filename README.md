@@ -53,10 +53,10 @@
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
  * Time Complexity:
    * Worst Case:     Best Case:  Average Case:
-   * Access: `O(n)`   `O(1)`        `O(n/2)`
-   * Search: `O(n)`   `O(1)`        `O(n/2)`
-   * Insert: `O(1)`     -              - 
-   * Remove: `O(1)`     -              -
+   * Access: `O(n)`   `O(1)`        `Θ(n)`
+   * Search: `O(n)`   `O(1)`        `Θ(n)`
+   * Insert: `O(1)`   `O(1)`        `Θ(n)` 
+   * Remove: `O(1)`   `O(1)`        `Θ(n)`
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
@@ -64,20 +64,21 @@
  * Last in, first out data structure (LIFO)
  * Time Complexity:
   * Worst Case:      Best Case:  Average Case:
-  * Access: `O(n)`
-  * Search: `O(n)`
-  * Insert: `O(1)`
-  * Remove: `O(1)`
+  * Access: `O(n)`    `O(1)`      `Θ(n)`
+  * Search: `O(n)`    `O(1)`      `Θ(n)`    
+  * Insert: `O(1)`    `O(1)'      `Θ(1)`
+  * Remove: `O(1)`    `O(1)`      `Θ(1)`
 
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
  * Time Complexity:
-  * Access: `O(n)`   Best Case:  Average Case:
-  * Search: `O(n)`
-  * Insert: `O(1)`
-  * Remove: `O(1)`
+  * Worst Case:     Best Case:  Average Case:
+  * Access: `O(n)`   `O(1)`       `Θ(n)`
+  * Search: `O(n)`   `O(1)`       `Θ(n)`
+  * Insert: `O(1)`   'O(1)`       `Θ(1)`
+  * Remove: `O(1)`   'O(1)`       `Θ(1)`
 
 ### Tree
  * A *Tree* is an undirected, connected, acyclic graph
@@ -95,10 +96,11 @@
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
    in the right sub-tree
  * Time Complexity:
-  * Access: `O(log(n))`
-  * Search: `O(log(n))`
-  * Insert: `O(log(n))`
-  * Remove: `O(log(n))`
+  * Worst Case:          Average Case:
+  * Access: `O(n)`        `O(log(n))`
+  * Search: `O(n)`        `O(log(n)`
+  * Insert: `O(n)`        `O(log(n)`
+  * Remove: `O(n)`        `O(log(n)`
 
 <img src="/Images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 

@@ -17,7 +17,7 @@ public class CreateLinkedListForEachLevel {
 			for(TreeNode parent : parents) {
 				/* visit the children */
 				if(parent.left != null) {
-					current.add(parrent.left);
+					current.add(parent.left);
 				}
 				if(parent.right != null) {
 					current.add(parent.right);
